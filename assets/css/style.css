@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25&display=swap");
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  border: 1px solid #2f8d8a;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(198, 255, 253, 0.5803921569);
+}
+
+.secao {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secao.inicio {
+  background-color: pink;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNSMaJdd2RSmwLw5LblHoDd254q6oODleYhr7GjAMJ3w&s");
+  background-size: cover;
+  background-position: center;
+}
+.secao.sobre {
+  background-color: blueviolet;
+  background-image: url("https://th.bing.com/th/id/R.6ed7f24eb793e97a94e9fc4c034b66c0?rik=sLWf7OZPgSpb1w&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-position: center;
+}
+.secao.atividades {
+  background-color: aqua;
+}
+
+h1,
+h2 {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.no-topo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  justify-content: space-between;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu li a {
+  text-decoration: none;
+  color: #000000;
+}
+.menu li a:hover {
+  color: #2f8d8a;
+  transition: 0.5s ease;
+}/*# sourceMappingURL=style.css.map */
